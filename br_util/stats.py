@@ -1,5 +1,7 @@
 """stats.py"""
 
+import numpy as np
+
 
 def robust_scatter(x):
     "aka converting from MAD to sigma equivalent"
