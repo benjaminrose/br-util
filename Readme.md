@@ -1,17 +1,15 @@
 # BR-util
 
-> A collection of reusable functions from Ben Rose.
+> A collection of reusable functions and scripts for my research.
 
 ## Installation
-
-Not yet implemented.
 
 Install from repo
 ```bash
 pip install git+https://github.com/benjaminrose/br_util.git 
 ```
 
-Or locally install an editable version:
+Or from a local copy, install an editable version:
 ```bash
 pip install -e .
 ```
