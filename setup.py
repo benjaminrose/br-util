@@ -7,7 +7,7 @@ setup(
     name="br_util",
     version="0.0.1",
     author="Benjamin Rose",
-    author_email="benjamin.rose@duke.du",
+    author_email="benjamin.rose@duke.edu",
     description="Extending the twins embedding with neural nets",
     long_description=long_description,
     long_description_content_type="text/markdown",
