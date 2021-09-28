@@ -5,13 +5,13 @@ with open("Readme.md", "r") as fh:
 
 setup(
     name="br_util",
-    version="0.0.1",
+    version="0.0.1-dev",
     author="Benjamin Rose",
     author_email="benjamin.rose@duke.edu",
-    description="Extending the twins embedding with neural nets",
+    description="????",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/benjaminrose/br_uti",
+    url="https://github.com/benjaminrose/br_util",
     packages=find_packages(include=["br_util", "br_util.*"]),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -19,6 +19,14 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.6",
-    install_requires=["astropy", "pandas", "numpy", "matplotlib", "seaborn", "scipy"],
-    # entry_points={"console_scripts": ["my-command=br_util.cli:main"]},
+    install_requires=[
+        "astropy",
+        "pandas",
+        "numpy",
+        "matplotlib",
+        # "seaborn",
+        "scipy",
+        "click",
+    ],
+    entry_points={"console_scripts": ["p2sigma=br_util.cli:p2sigma"]},
 )
